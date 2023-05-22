@@ -1,0 +1,45 @@
+.review_slider {
+  margin-top: 2rem;
+}
+
+.slider_controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reviewCardContainter {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dot_navigation {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: var(--rosybrown);
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #aaa;
+  }
+}
+
+.active {
+  background-color: var(--chestnut);
+}
+
+  
