@@ -1,6 +1,7 @@
 import React from 'react'
 import PageCard from '../PageCard'
 import styles from './styles.module.scss'
+import WalnutLeaf from '../WalnutLeaf'
 
 export default function HowWeWork() {
   return (
