@@ -52,7 +52,7 @@
                 position: absolute;
                 top: 100%;
                 left: 0;
-                background-color: #f9f9f9;
+                background-color: var(--logo-beige);
                 min-width: 18rem;
                 padding: 10px;
                 z-index: 1;
@@ -61,16 +61,17 @@
                     margin: 0;
                     padding: 0;
                     list-style: none;
+                    &:hover {
+                        background-color: var(--lavender-blush);
+                    }
 
                     a {
-                        color: #333;
+                        color: var(--garnet);
                         text-decoration: none;
                         display: block;
-                        padding-left: 2rem;
+                        //padding-left: 2rem;
 
-                        &:hover {
-                            background-color: #ddd;
-                        }
+                        
                     }
                 }
             }

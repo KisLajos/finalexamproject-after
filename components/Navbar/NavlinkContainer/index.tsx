@@ -10,6 +10,7 @@ export interface NavlinkContainerProps {
 }
 
 export default function NavlinkContainer({categories} : NavlinkContainerProps) {
+  //console.log()
   return (
     <ul className={navbarstyles.nav_links + " " + styles.testclass}>
         <li>

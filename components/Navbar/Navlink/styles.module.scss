@@ -1,6 +1,8 @@
 .nav_link {
     margin: 0 10px;
     position: relative;
+    display: flex;
+            width: 100%;
 
     &:hover {
         .dropdown_content {
@@ -8,7 +10,7 @@
         }
     }
 
-    a {
+    /* a {
         color: #fff;
         text-decoration: none;
         display: block;
@@ -18,9 +20,9 @@
         &:hover {
             background-color: rgba(255, 255, 255, 0.1);
         }
-    }
+    } */
 
-    &::before {
+    /* &::before {
         content: "";
         position: absolute;
         left: 0;
@@ -28,7 +30,7 @@
         transform: translateY(-50%);
         width: 16px;
         height: 16px;
-        background-image: url("../../../public/next.svg");
+        background-image: url("../../../public/walnutleaf-lavender.svg");
         background-size: cover;
-    }
+    } */
 }
