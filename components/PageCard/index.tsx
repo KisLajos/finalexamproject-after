@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
 import styles from './styles.module.scss'
+import WalnutLeaf from '../WalnutLeaf'
 
 export interface PageCardProps {
   type: string,
@@ -10,21 +11,22 @@ export interface PageCardProps {
 }
 
 export default function PageCard({title, links, bodytext}:PageCardProps) {
-  console.log("==========")
-  console.log("links")
-  console.log("==========")
-  console.log(links)
-  console.log(links.length)
   
   return (
     <div>
       {links.length > 1 && 
         <div className={styles.linksCard}>
-          <h2>{title}</h2>
+          <div className={styles.linkscardHeader}>
+            <WalnutLeaf colour="lavender" width={40} height={40}/>
+            <h2>{title}</h2>
+          </div>
           {
-          <div>
+          <div className={styles.linkscardBody}>
             {links.map((link, index) =>(
-                <div key={"link-" + index} className={styles.needsBefore}>{link}</div>
+                <div className={styles.linkscardlineContainer} key={"link-" + index}>
+                  <WalnutLeaf colour="lavender" width={20} height={20}/>
+                  {link}
+                </div>
             ))}
           </div>
           }
