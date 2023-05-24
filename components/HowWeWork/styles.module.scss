@@ -1,6 +1,7 @@
 .HowWeWorkContainer {
     margin-left: 2rem;
     margin-right: 2rem;
+    width: 100%;
 
     h1 {
         text-align: center;
@@ -9,7 +10,13 @@
 
 .HowWeWorkCardsContainer {
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 2rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    background-image: url("http://finalexamprojectafter-wp.lajoskis.dk/wp-content/uploads/2023/05/Rust-Background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
