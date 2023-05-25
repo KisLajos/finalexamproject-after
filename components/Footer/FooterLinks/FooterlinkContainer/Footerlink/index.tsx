@@ -10,14 +10,14 @@ export interface FooterlinkProps {
 
 export default function Footerlink({category}: FooterlinkProps) {
   return (
-    <span >
+    <span className={styles.footerlinkSpan}>
         {!category.acf.children_data ? 
-        <Link href={`/${category.slug}`}>{category.name}</Link>
+        <Link className={styles.footerlistHeader} href={`/${category.slug}`}>{category.name}</Link>
         :
         <div className={styles.footerlist}>
-            <div>{category['name']}</div>
+            <div className={styles.footerlistHeader}>{category['name']}</div>
             {category.acf.children_data.map((categorychild, index) => (
-                <li key={`${category.slug}-${index}`} className={`${styles.nav_link} ${styles.nav_link__child}`}>
+                <li key={`${category.slug}-${index}`} className={`${styles.nav_link} ${styles.nav_link__child} ${styles.footerSublinks}`}>
                     <Link href={`/${category.slug}/${categorychild.slug}`}>{categorychild.name}</Link>
                 </li>
             ))}

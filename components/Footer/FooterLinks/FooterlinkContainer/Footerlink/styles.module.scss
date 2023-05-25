@@ -1,3 +1,11 @@
 .footerlist {
     list-style-type: none;
+
+    .footerSublinks {
+        padding-top: 0.7rem;
+    }
+}
+
+.footerlistHeader {
+    font-weight: bold;
 }
