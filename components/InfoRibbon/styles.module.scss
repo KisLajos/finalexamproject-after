@@ -1,0 +1,14 @@
+.infoRibbonContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 6rem;
+    width: 100%;    
+
+    .infoRibbonBox {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+}
