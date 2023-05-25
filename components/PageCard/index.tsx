@@ -17,14 +17,14 @@ export default function PageCard({title, links, bodytext}:PageCardProps) {
       {links.length > 1 && 
         <div className={styles.linksCard}>
           <div className={styles.linkscardHeader}>
-            <WalnutLeaf colour="lavender" width={40} height={40}/>
+            <WalnutLeaf colour="logocolours" width={40} height={40}/>
             <h2>{title}</h2>
           </div>
           {
           <div className={styles.linkscardBody}>
             {links.map((link, index) =>(
                 <div className={styles.linkscardlineContainer} key={"link-" + index}>
-                  <WalnutLeaf colour="lavender" width={20} height={20}/>
+                  <WalnutLeaf colour="logocolours" width={20} height={20}/>
                   {link}
                 </div>
             ))}
