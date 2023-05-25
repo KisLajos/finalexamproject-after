@@ -8,6 +8,7 @@ import { getHeroImages } from '@/utils/wordpressfunctions'
 import AboutUs from '@/components/AboutUs'
 import InfoRibbon from '@/components/InfoRibbon'
 import { faPenNib, faCreditCard, faBoxOpen, faPaperPlane } from '@fortawesome/free-solid-svg-icons'
+import SectionHeader from '@/components/SectionHeader'
 
 export default async function Home() {
   const imagesRes = await getHeroImages();
@@ -44,6 +45,7 @@ export default async function Home() {
       <MainPageCards />
       <HowWeWork />
       <InfoRibbon infoRibbonBoxes={infoRibbonBoxes}/>
+      <SectionHeader headertext='Munkáink'/>
       <Image src='/munkaink.svg' alt='munkaink' width={900} height={900}/>
       {/* @ts-expect-error Server Component */}
       <Reviews />
