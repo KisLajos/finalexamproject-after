@@ -1,6 +1,5 @@
 import AboutUs from "@/components/AboutUs";
-import { getPageDataBySlug } from "@/utils/wordpressfunctions";
-import parse from "html-react-parser";
+import NonHomeHeader from "@/components/NonhomeHeader";
 
 export default async function Rolunk() {
     
@@ -8,7 +7,6 @@ export default async function Rolunk() {
 
     return (
         <div>
-            <h1>Információk – Rólunk</h1>
             {/* @ts-expect-error Server Component */}
             <AboutUs/>
         </div>

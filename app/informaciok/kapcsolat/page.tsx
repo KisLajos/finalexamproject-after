@@ -1,4 +1,5 @@
 import ContactLinks from "@/components/ContactLinks";
+import NonHomeHeader from "@/components/NonhomeHeader";
 import { getPageDataBySlug } from "@/utils/wordpressfunctions";
 import parse from "html-react-parser";
 
@@ -8,9 +9,8 @@ export default async function Kapcsolat() {
 
     return (
         <div>
-            {parse(page.title.rendered)}
+            <NonHomeHeader content={page.title.rendered}/>
             {parse(page.content.rendered)}
-            {parse(page.excerpt.rendered)}
         </div>
     );
 }
