@@ -46,7 +46,9 @@ export default async function Home() {
       <HowWeWork />
       <InfoRibbon infoRibbonBoxes={infoRibbonBoxes}/>
       <SectionHeader headertext='Munkáink'/>
-      <Image src='/munkaink.svg' alt='munkaink' width={900} height={900}/>
+      <div className={styles.ourWorksImageContainer}>
+        <Image src='/munkaink.svg' alt='munkaink' width={900} height={900}/>
+      </div>
       {/* @ts-expect-error Server Component */}
       <Reviews />
       {/* @ts-expect-error Server Component */}
