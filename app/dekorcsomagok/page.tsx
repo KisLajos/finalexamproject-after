@@ -1,6 +1,8 @@
 import DecorPackagesContainer from "@/components/DecorPage/DecorPackagesContainer";
 import { getPageDataBySlug } from "@/utils/wordpressfunctions";
 import parse from "html-react-parser";
+import NonHomeHeader from "@/components/NonhomeHeader";
+import styles from "./styles.module.scss"
 
 export default async function Dekorcsomagok() {
     const page = await getPageDataBySlug("dekorcsomagok")
@@ -8,7 +10,7 @@ export default async function Dekorcsomagok() {
 
     return (
         <div>
-            {parse(page.title.rendered)}
+            <NonHomeHeader content={page.title.rendered}/>
             {parse(page.content.rendered)}
 
             <DecorPackagesContainer/>
