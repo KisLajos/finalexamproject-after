@@ -1,14 +1,18 @@
 .infoRibbonContainer {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
-    height: 6rem;
+    justify-content: space-around;
     width: 100%;    
+    background-color: var(--leafgreen);
+    color: var(--lavender-blush);
+    margin-top: 6rem;
 
     .infoRibbonBox {
         display: flex;
         align-items: center;
         justify-content: center;
         gap: 1rem;
+        margin: 1rem;
     }
 }
