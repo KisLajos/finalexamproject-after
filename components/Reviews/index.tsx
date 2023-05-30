@@ -7,6 +7,7 @@ import SectionHeader from '../SectionHeader';
 export default async function Reviews() {
   const reviews = await getReviews();
 
+  //TODO: actually turn these return divs to sections
   return (
     <div>
       <SectionHeader headertext="Visszajelzések"/>

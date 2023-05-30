@@ -36,7 +36,7 @@ export default function PageCard({title, links, bodytext}:PageCardProps) {
       {(bodytext && bodytext.length > 0) &&
         <div className={styles.textCard}>
           <h2>{title}</h2>
-          <div>
+          <div className={styles.textCardContent}>
             {bodytext}
           </div>
         </div>
