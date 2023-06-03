@@ -6,7 +6,8 @@ import styles from './styles.module.scss'
 export interface Product {
   name: string,
   price: number,
-  slug: string
+  slug: string,
+  status: string
 }
 
 export interface ProductCardProps {
