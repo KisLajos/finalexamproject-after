@@ -51,7 +51,7 @@ export async function getCategories() {
 }
 
 async function getCategoryById(id : number) {
-  const resCategory = await fetch(`https://finalexamproject-wp.lajoskis.dk/wp-json/wp/v2/categories/${id}`);
+  const resCategory = await fetch(`https://finalexamprojectafter-wp.lajoskis.dk/wp-json/wp/v2/categories/${id}`);
 
   if (!resCategory.ok) {
     // This will activate the closest `error.tsx` Error Boundary

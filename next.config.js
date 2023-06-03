@@ -9,7 +9,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'finalexamproject-wp.lajoskis.dk',
+        hostname: 'finalexamprojectafter-wp.lajoskis.dk',
         port: '',
         pathname: '/wp-content/uploads/**',
       },

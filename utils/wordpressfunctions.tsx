@@ -3,7 +3,7 @@ export async function getPageDataBySlug(slug: string) {
     
 
     try {
-        const resPage = await fetch(`https://finalexamproject-wp.lajoskis.dk/wp-json/wp/v2/pages?slug=${slug}`, {cache: "no-cache"})
+        const resPage = await fetch(`https://finalexamprojectafter-wp.lajoskis.dk/wp-json/wp/v2/pages?slug=${slug}`, {cache: "no-cache"})
         const pageDataArray = await resPage.json();
         const page = pageDataArray[0];
 
@@ -19,7 +19,7 @@ export async function getAllPages() {
     
 
     try {
-        const resPage = await fetch(`https://finalexamproject-wp.lajoskis.dk/wp-json/wp/v2/pages`)
+        const resPage = await fetch(`https://finalexamprojectafter-wp.lajoskis.dk/wp-json/wp/v2/pages`)
         const pages = await resPage.json();
 
         return pages;
@@ -31,7 +31,7 @@ export async function getAllPages() {
 
 export async function getMediaFromWordPress() {
     try {
-        const response = await fetch('https://finalexamproject-wp.lajoskis.dk/wp-json/wp/v2/media?per_page=50');
+        const response = await fetch('https://finalexamprojectafter-wp.lajoskis.dk/wp-json/wp/v2/media?per_page=50');
         const media = await response.json();
         
         return media;
@@ -43,7 +43,7 @@ export async function getMediaFromWordPress() {
 
 export async function getHeroImages() {
     try {
-        const response = await fetch('https://finalexamproject-wp.lajoskis.dk/wp-json/wp/v2/pages?slug=fooldal');
+        const response = await fetch('https://finalexamprojectafter-wp.lajoskis.dk/wp-json/wp/v2/pages?slug=fooldal');
         const media = await response.json();
         
         return media;
@@ -55,7 +55,7 @@ export async function getHeroImages() {
 
 export async function getReviews() {
     try {
-      const response = await fetch('https://finalexamproject-wp.lajoskis.dk/wp-json/wp/v2/visszajelzesek', {cache: "no-cache"});
+      const response = await fetch('https://finalexamprojectafter-wp.lajoskis.dk/wp-json/wp/v2/visszajelzesek', {cache: "no-cache"});
       const reviews = await response.json();
 
       return reviews;

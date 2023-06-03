@@ -1,7 +1,7 @@
 import WooCommerceRestApi from "@woocommerce/woocommerce-rest-api";
 
 const api = new WooCommerceRestApi({
-    url: "https://finalexamproject-wp.lajoskis.dk/",
+    url: "https://finalexamprojectafter-wp.lajoskis.dk/",
     consumerKey: process.env.WCKEY!,
     consumerSecret: process.env.WCSEC!,
     version: "wc/v3",
