@@ -1,0 +1,46 @@
+.contactPageContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2rem;
+    height: 100vh;
+    background-image: url("http://finalexamprojectafter-wp.lajoskis.dk/wp-content/uploads/2023/06/C7A0571.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    .contactPageHeaders {     
+        position: absolute;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+        top: 0.5rem;
+
+        h2,
+        h3 {
+            color: var(--hookersgreen);
+            margin: 1rem;
+        }
+    }
+
+    .contactDetailsBackground {
+        width: 100%;
+        margin-top: 10rem;
+
+        .contactDetailsContainer {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            background-color:  rgba(#568455, 0.8);
+            color: var(--lavender-blush);
+        
+            .contactPageLogoContainer {
+                margin: 2rem;
+            }
+        }
+    }
+}

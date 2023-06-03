@@ -14,6 +14,7 @@ const nextConfig = {
         pathname: '/wp-content/uploads/**',
       },
     ],
+    domains: ['finalexamprojectafter-wp.lajoskis.dk']
   },
 }
 
