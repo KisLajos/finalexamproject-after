@@ -16,9 +16,9 @@ export default function ProductGrid({products, title}: ProductGridProps) {
   return (
     <div>
         <h1>{title}</h1>
-        <div className={styles.productCardContainer}>
+        <div className={styles.productCardsContainer}>
           {products.map((product, index) => (
-            <ProductCard key={`${product.slug}-${index}`} product={product} />
+            product.status === "publish" ? <ProductCard key={`${product.slug}-${index}`} product={product} /> : ""
           ))}
         </div>
     </div>
