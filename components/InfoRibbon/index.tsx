@@ -16,8 +16,8 @@ export default function InfoRibbon({infoRibbonBoxes} : InfoRibbonProps) {
   return (
     <div className={styles.infoRibbonContainer}>
         {
-        infoRibbonBoxes.map((infoRibbonBox: InfoRibbonBoxProps) => (
-            <div className={styles.infoRibbonBox}>
+        infoRibbonBoxes.map((infoRibbonBox: InfoRibbonBoxProps, index) => (
+            <div key={"box_" + index} className={styles.infoRibbonBox}>
                 <FontAwesomeIcon style={{width:"2rem"}} icon={infoRibbonBox.icon}/> {infoRibbonBox.textContent}
             </div>
         ))}
