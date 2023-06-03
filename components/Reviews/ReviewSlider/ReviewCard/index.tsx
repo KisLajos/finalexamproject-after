@@ -17,7 +17,7 @@ export default function ReviewCard({reviews, currentIndex} : ReviewCardProps) {
         
         <div className={styles.reviewCardContent}>
             <h3>{reviews[currentIndex]?.title.rendered}</h3>
-            <p>{parse(reviews[currentIndex]?.content.rendered)}</p>
+            <div>{parse(reviews[currentIndex]?.content.rendered)}</div>
         </div>
     </div>
   )
