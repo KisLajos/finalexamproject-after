@@ -1,17 +1,16 @@
 import React from 'react'
 import ReviewSlider from './ReviewSlider'
 import { getReviews } from '@/utils/wordpressfunctions';
-import styles from './styles.module.scss'
 import SectionHeader from '../SectionHeader';
+import styles from './styles.module.scss'
 
 export default async function Reviews() {
   const reviews = await getReviews();
 
-  //TODO: actually turn these return divs to sections
   return (
-    <div>
+    <section>
       <SectionHeader headertext="Visszajelzések"/>
       <ReviewSlider reviews={reviews} />
-    </div>
+    </section>
   )
 }

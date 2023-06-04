@@ -2,13 +2,13 @@ import Image from 'next/image'
 import HeroGallery from '@/components/HeroGallery'
 import MainPageCards from '@/components/MainPageCards'
 import HowWeWork from '@/components/HowWeWork'
-import styles from './page.module.scss'
 import Reviews from '@/components/Reviews'
-import { getHeroImages } from '@/utils/wordpressfunctions'
 import AboutUs from '@/components/AboutUs'
 import InfoRibbon from '@/components/InfoRibbon'
-import { faPenNib, faCreditCard, faBoxOpen, faPaperPlane } from '@fortawesome/free-solid-svg-icons'
 import SectionHeader from '@/components/SectionHeader'
+import { getHeroImages } from '@/utils/wordpressfunctions'
+import { faPenNib, faCreditCard, faBoxOpen, faPaperPlane } from '@fortawesome/free-solid-svg-icons'
+import styles from './page.module.scss'
 
 export default async function Home() {
   const imagesRes = await getHeroImages();
