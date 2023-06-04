@@ -3,8 +3,8 @@
 }
 
 .reviewCard {
-    height: 7rem;
-    width: 50rem;
+    height: 8rem;
+    width: 90vw;
     display: flex;
     align-items: center;
     
@@ -35,5 +35,18 @@
         text-align: justify;
       }
     }
-  }
+}
+
+@media screen and (max-width: 768px) {
+  .reviewCard {
+    flex-direction: column;
+    justify-content: center;
+    height: 20rem;
+
+    .reviewCardContent {
+      padding-left: 0px;
+      padding-top: 40px;
+    }
+  }  
+}
   
