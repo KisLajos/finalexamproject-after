@@ -47,7 +47,7 @@ export default async function Home() {
       <InfoRibbon infoRibbonBoxes={infoRibbonBoxes}/>
       <SectionHeader headertext='Munkáink'/>
       <div className={styles.ourWorksImageContainer}>
-        <Image src='/munkaink.svg' alt='munkaink' width={900} height={900}/>
+        <Image src='/munkaink.png' alt='munkaink' width={900} height={900}/>
       </div>
       {/* @ts-expect-error Server Component */}
       <Reviews />

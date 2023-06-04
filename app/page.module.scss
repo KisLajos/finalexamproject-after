@@ -8,6 +8,7 @@
   .ourWorksImageContainer {
     img {
       width: 100%;
+      height: auto;
     }
   }
 }
@@ -226,6 +227,12 @@
 
   .logo {
     filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);
+  }
+}
+
+@media (min-width: 700px) {
+  .ourWorksImageContainer {
+    width: 40vw;
   }
 }
 
