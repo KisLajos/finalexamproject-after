@@ -1,6 +1,7 @@
 import NonHomeHeader from "@/components/NonhomeHeader";
 import { getPageDataBySlug } from "@/utils/wordpressfunctions";
 import parse from "html-react-parser";
+import textpagestyles from "../textpagestyles.module.scss"
 
 export default async function GYIK() {
     const page = await getPageDataBySlug("gyik")
@@ -9,7 +10,9 @@ export default async function GYIK() {
     return (
         <div>
             <NonHomeHeader content={page.title.rendered}/>
-            {parse(page.content.rendered)}
+            <div className={textpagestyles.textPageContent}>
+                {parse(page.content.rendered)}
+            </div>
         </div>
     );
 }
