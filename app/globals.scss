@@ -95,19 +95,13 @@ body {
 }
 
 body {
-  color: var(--chestnut);
-  /* background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb)); */
-    background: var(--lavender-blush);
+    color: var(--chestnut) !important;
+    background: var(--lavender-blush) !important;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+  color: inherit !important;
+  text-decoration: none !important;
 }
 
 @media (prefers-color-scheme: dark) {
