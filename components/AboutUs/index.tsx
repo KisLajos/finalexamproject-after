@@ -9,7 +9,7 @@ export default async function AboutUs() {
 const page = await getPageDataBySlug("rolunk")
 
   return (
-    <section>
+    <section className={styles.AboutUsSection}>
       <SectionHeader headertext={page.title.rendered}/>
       <div className={styles.aboutusContainer}>
           <Image src={page.acf.about_us_image.url} alt="Flóra & Balázs" width={page.acf.about_us_image.width} height={page.acf.about_us_image.height}/>
