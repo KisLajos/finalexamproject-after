@@ -2,11 +2,10 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { usePathname } from 'next/navigation';
 import { Category } from '..'
 import Navlink from '../Navlink'
-import { useShoppingCart } from '@/context/ShoppingCartContext'
+import ShoppingCartButton from '@/components/ShoppingCartButton';
 import navbarstyles from '../styles.module.scss'
 import styles from './styles.module.scss'
 
@@ -14,10 +13,9 @@ export interface NavlinkContainerProps {
     categories: Category[]
 }
 
-export default function NavlinkContainer({categories} : NavlinkContainerProps) {
-  const {openCart, cartQuantity} = useShoppingCart();
+export default function NavlinkContainer({categories} : NavlinkContainerProps) { 
+  const pathname = usePathname();
 
-  //console.log()
   return (
     <>
     <ul className={navbarstyles.nav_links}>
@@ -37,12 +35,7 @@ export default function NavlinkContainer({categories} : NavlinkContainerProps) {
         
       </ul>
       {
-        cartQuantity > 0 && <button className={styles.shoppingCart} onClick={openCart}>
-        <FontAwesomeIcon icon={faShoppingCart}/>
-        <div className={styles.cartQuantity}>
-          {cartQuantity}
-        </div>
-      </button>
+        pathname === "/webshop/termekek" && <ShoppingCartButton/>
       }
     </>
   )
