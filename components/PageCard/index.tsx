@@ -2,6 +2,13 @@ import Link from 'next/link'
 import React from 'react'
 import styles from './styles.module.scss'
 import WalnutLeaf from '../WalnutLeaf'
+import localFont from 'next/font/local';
+ 
+// Font files can be colocated inside of `app`
+const BuenardFont = localFont({
+  src: '../../app/fonts/Buenard-Regular.ttf',
+  display: 'swap',
+});
 
 export interface PageCardProps {
   type: string,
@@ -18,7 +25,7 @@ export default function PageCard({title, links, bodytext}:PageCardProps) {
         <div className={styles.linksCard}>
           <div className={styles.linkscardHeader}>
             <WalnutLeaf colour="logocolours" width={40} height={40}/>
-            <h2>{title}</h2>
+            <h2 className={BuenardFont.className}>{title}</h2>
           </div>
           {
           <div className={styles.linkscardBody}>
@@ -35,7 +42,7 @@ export default function PageCard({title, links, bodytext}:PageCardProps) {
       
       {(bodytext && bodytext.length > 0) &&
         <div className={styles.textCard}>
-          <h2>{title}</h2>
+          <h2 className={BuenardFont.className}>{title}</h2>
           <div className={styles.textCardContent}>
             {bodytext}
           </div>
