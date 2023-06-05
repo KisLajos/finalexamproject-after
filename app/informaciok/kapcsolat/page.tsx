@@ -3,6 +3,13 @@ import NonHomeHeader from "@/components/NonhomeHeader";
 import { getPageDataBySlug } from "@/utils/wordpressfunctions";
 import Image from 'next/image';
 import styles from './styles.module.scss';
+import localFont from 'next/font/local';
+ 
+// Font files can be colocated inside of `app`
+const BuenardFont = localFont({
+  src: '../../../app/fonts/Buenard-Regular.ttf',
+  display: 'swap',
+});
 
 export default async function Kapcsolat() {
     const page = await getPageDataBySlug("kapcsolat")
@@ -13,8 +20,8 @@ export default async function Kapcsolat() {
             <NonHomeHeader content={page.title.rendered}/>
             <div className={styles.contactPageContainer}>
                 <div className={styles.contactPageHeaders}>
-                    <h2>Keress minket bizalommal!</h2>
-                    <h3>
+                    <h2 className={BuenardFont.className}>Keress minket bizalommal!</h2>
+                    <h3 className={BuenardFont.className}>
                         Nagyon szuper és gördülékeny készülődést<br/>
                         kívánunk Nektek a NAGY NAPOTOKIG!
                     </h3>
