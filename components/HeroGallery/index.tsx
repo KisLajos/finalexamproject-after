@@ -1,7 +1,7 @@
 'use client'
+import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { Image } from "../FeaturedGallery";
-import { useEffect, useState } from "react";
 import styles from './styles.module.scss'
 
 export interface HeroGalleryProps {
@@ -36,20 +36,28 @@ const HeroGallery = ({ images, interval = 5000 } : HeroGalleryProps) => {
     }
 
     return (
-      <div className={styles.hero_gallery}>
-        <AnimatePresence initial={false} mode="wait">
+      <section className={styles.hero_gallery}>
+        <AnimatePresence initial={false} mode="popLayout">
           <motion.div
             key={currentIndex}
             className={styles.hero_image_container}
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            transition={{ duration: 0.5 }}
+            /* initial={{ x: 100, opacity: 0.3 }}
+            animate={{ x: 0, opacity: 1 }}
+            exit={{ x: -100, opacity: 0.7 }}
+            transition={{ duration: 0.3 }} */
           >
-            <img src={images[currentIndex].url!} alt="Diólevél"></img> 
+            <motion.img
+              /* layoutId="img" */
+              src={images[currentIndex].url!}
+              alt="Diólevél"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              transition={{ duration: 0.4 }}
+            />
           </motion.div>
         </AnimatePresence>
-      </div>
+      </section>
     );
 }
 
