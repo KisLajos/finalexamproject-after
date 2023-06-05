@@ -18,7 +18,7 @@ const roboto = Roboto({
 
 export const metadata = {
   title: 'Diólevel Dekorműhely',
-  description: 'A Diólevél Dekorműhely egyedi kézműves dekorációkkal segít varázslatos hangulatot teremteni.',
+  description: 'A Diólevél Dekorműhely egyedi kézműves dekorációkkal segít varázslatos hangulatot teremteni. Táblák, feliratok, falidekor, meghívók, köszönőajándék, babaváró partydekor, teljes esküvő dekoráció',
 }
 
 export default function RootLayout({ children } : RootLayoutProps) {
