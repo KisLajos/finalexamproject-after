@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import parse from 'html-react-parser'
 import { getPageDataBySlug } from '@/utils/wordpressfunctions'
-import NonHomeHeader from '../NonhomeHeader'
+import SectionHeader from '../SectionHeader'
 import styles from './styles.module.scss'
 
 export default async function AboutUs() {
@@ -10,7 +10,7 @@ const page = await getPageDataBySlug("rolunk")
 
   return (
     <section>
-      <NonHomeHeader content={page.title.rendered}/>
+      <SectionHeader headertext={page.title.rendered}/>
       <div className={styles.aboutusContainer}>
           <Image src={page.acf.about_us_image.url} alt="Flóra & Balázs" width={page.acf.about_us_image.width} height={page.acf.about_us_image.height}/>
           <div className={styles.aboutusText}>
