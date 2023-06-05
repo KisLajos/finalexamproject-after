@@ -26,4 +26,36 @@
     gap: 4rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    position: relative;
+
+    .dandelions_vibe,
+    .dandelions_tervezes,
+    .dandelions_veglegesites,
+    .dandelions_anagynap {
+        position: absolute;
+        height: auto;
+        max-width: 5rem;
+    }
+
+    .dandelions_vibe {
+        top: -2rem;
+        left: 17rem;
+        max-width: 3.5rem;
+    }
+
+    .dandelions_tervezes {
+        left: 26rem;
+        bottom: 18rem;
+    }
+
+    .dandelions_veglegesites {
+        right: 29rem;
+        bottom: 14rem;
+    }
+
+    .dandelions_anagynap {
+        bottom: 16rem;
+        right: 10rem;
+    }
+
 }
