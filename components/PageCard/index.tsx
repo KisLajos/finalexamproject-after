@@ -13,7 +13,7 @@ export interface PageCardProps {
 export default function PageCard({title, links, bodytext}:PageCardProps) {
   
   return (
-    <div>
+    <div className={styles.PageCardContainer}>
       {links.length > 1 && 
         <div className={styles.linksCard}>
           <div className={styles.linkscardHeader}>

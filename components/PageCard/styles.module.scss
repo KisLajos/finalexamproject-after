@@ -2,13 +2,13 @@
     background-color: var(--chestnut);
     color: var(--lavender-blush);
     height: 20rem;
-    width: 18rem;
+    width: 21rem;
     padding: 1rem;
 
     .linkscardHeader {
         display: flex;
         align-items: center;
-        justify-content: center;
+        /* justify-content: center; */
         margin-bottom: 1.2rem;
     }
 
@@ -16,8 +16,8 @@
         .linkscardlineContainer {
             display: flex;
             align-items: center;
-            margin: 1rem;
-            gap: 0.5rem;
+            margin-left: 0.5rem;
+            margin-bottom: 0.8rem;
         }
     }
 

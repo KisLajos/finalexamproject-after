@@ -37,23 +37,23 @@ const HeroGallery = ({ images, interval = 5000 } : HeroGalleryProps) => {
 
     return (
       <section className={styles.hero_gallery}>
-        <AnimatePresence initial={false} mode="popLayout">
+        <AnimatePresence initial={false} mode="wait">
           <motion.div
             key={currentIndex}
             className={styles.hero_image_container}
-            /* initial={{ x: 100, opacity: 0.3 }}
-            animate={{ x: 0, opacity: 1 }}
-            exit={{ x: -100, opacity: 0.7 }}
-            transition={{ duration: 0.3 }} */
+            initial={{ opacity: 0.7 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0.7 }}
+            transition={{ duration: 0.3 }}
           >
-            <motion.img
+            <img
               /* layoutId="img" */
               src={images[currentIndex].url!}
               alt="Diólevél"
-              initial={{ opacity: 0 }}
+              /* initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
-              transition={{ duration: 0.4 }}
+              transition={{ duration: 0.4 }} */
             />
           </motion.div>
         </AnimatePresence>
