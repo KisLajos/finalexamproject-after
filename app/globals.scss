@@ -104,6 +104,15 @@ a {
   text-decoration: none !important;
 }
 
+.custom_offcanvas,
+.custom_offcanvas_header {
+  background-color: var(--lavender-blush);
+}
+
+.custom_offcanvas_title {
+  color: var(--chestnut) !important;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

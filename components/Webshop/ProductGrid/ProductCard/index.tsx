@@ -40,8 +40,8 @@ export default function ProductCard({product}: ProductCardProps) {
           <div className={styles.quantityRow}>
             <button className={styles.creaseButtons} onClick={() => decreaseCartQuantity(product.id)}>-</button>
             
-            <div>
-              <span>{quantity}</span> db a kosárban
+            <div className={styles.quantityContainer}>
+              <span>{quantity} db a kosárban</span>
             </div>
 
             <button className={styles.creaseButtons} onClick={() => increaseCartQuantity(product.id)}>+</button>

@@ -14,11 +14,11 @@ export function ShoppingCart({ isOpen } : ShoppingCartProps) {
 
     return (
         <Offcanvas show={isOpen} onHide={closeCart} placement="end">
-            <Offcanvas.Header closeButton>
-                <Offcanvas.Title>Kosár</Offcanvas.Title>
+            <Offcanvas.Header className="custom_offcanvas_header" closeButton>
+                <Offcanvas.Title className="custom_offcanvas_title">Kosár</Offcanvas.Title>
             </Offcanvas.Header>
-            <Offcanvas.Body>
-                <Stack gap={3}>
+            <Offcanvas.Body className="custom_offcanvas">
+                <Stack gap={3} className="custom_offcanvas_title">
                     {cartItems.map(item => (
                         <CartItem key={item.id} {...item} />
                     ))}
