@@ -7,11 +7,11 @@ import styles from './styles.module.scss'
 export default function ContactLinks() {
   return (
     <div className={styles.contactLinks}>
-      <span><FontAwesomeIcon icon={faEnvelope} style={{color: "#f3e4e2", width: "20px"}} />wagner.flora@prsc.hu</span>
-      <span><FontAwesomeIcon icon={faPhone} style={{color: "#f3e4e2", width: "20px"}} /> +36 70 609 7223</span>
+      <a href="mailto:wagner.flora@prsc.hu"><FontAwesomeIcon icon={faEnvelope} style={{color: "#f3e4e2", width: "20px"}} />wagner.flora@prsc.hu</a>
+      <a href="tel:+36706097223"><FontAwesomeIcon icon={faPhone} style={{color: "#f3e4e2", width: "20px"}} /> +36 70 609 7223</a>
       <span><FontAwesomeIcon icon={faLocationDot} style={{color: "#f3e4e2", width: "20px"}} />2330 Dunaharaszti, Fő út 207.</span>
-      <span><FontAwesomeIcon icon={faFacebook} style={{color: "#f3e4e2", width: "20px"}}/>@dioleveldekor</span>
-      <span><FontAwesomeIcon icon={faInstagram} style={{color: "#f3e4e2", width: "20px"}}/> @diolevel_dekormuhely</span>
+      <a href='https://www.instagram.com/diolevel_dekormuhely/'><FontAwesomeIcon icon={faFacebook} style={{color: "#f3e4e2", width: "20px"}}/>@dioleveldekor</a>
+      <a href='https://www.facebook.com/dioleveldekor'><FontAwesomeIcon icon={faInstagram} style={{color: "#f3e4e2", width: "20px"}}/> @diolevel_dekormuhely</a>
     </div>
   )
 }
