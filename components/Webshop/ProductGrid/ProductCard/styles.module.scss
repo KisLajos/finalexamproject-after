@@ -2,9 +2,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     max-width: 270px;
-    max-height: 400px;
+    height: 400px;
 
     .productcardImageContainer {
         margin: 2px;
@@ -23,4 +23,38 @@
         border-radius: 5%;
         margin-top: 1rem;
     }
+
+    .actionsBox {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 0.5rem;
+
+        .quantityRow {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+        }
+    }
+}
+
+.creaseButtons {
+    width: 33%;
+    height: 2rem;
+    background-color: var(--jasper);
+    color: var(--lavender-blush);
+    border: none;
+    border-radius: 5%;
+    margin-top: 1rem;
+}
+
+.removeButton {
+    width: 33%;
+    height: 2rem;
+    background-color: var(--jasper);
+    color: var(--lavender-blush);
+    border: none;
+    border-radius: 5%;
+    margin-top: 1rem;
 }

@@ -1,0 +1,1127 @@
+[
+    {
+        "id": 249,
+        "name": "Vintage - Üdvözlő tábla",
+        "slug": "vintage-udvozlo-tabla",
+        "permalink": "https://finalexamprojectafter-wp.lajoskis.dk/product/vintage-udvozlo-tabla",
+        "date_created": "2023-06-03T10:28:40",
+        "date_created_gmt": "2023-06-03T10:28:40",
+        "date_modified": "2023-06-03T22:07:48",
+        "date_modified_gmt": "2023-06-03T22:07:48",
+        "type": "simple",
+        "status": "publish",
+        "featured": false,
+        "catalog_visibility": "visible",
+        "description": "<p>Egyedi szöveggel ellátott, 60x40-es Dió fa tábla, fehér és színes mintákkal nyomtatva. </p>\n",
+        "short_description": "",
+        "sku": "",
+        "price": "13000",
+        "regular_price": "13000",
+        "sale_price": "",
+        "date_on_sale_from": null,
+        "date_on_sale_from_gmt": null,
+        "date_on_sale_to": null,
+        "date_on_sale_to_gmt": null,
+        "on_sale": false,
+        "purchasable": true,
+        "total_sales": 0,
+        "virtual": false,
+        "downloadable": false,
+        "downloads": [],
+        "download_limit": 0,
+        "download_expiry": 0,
+        "external_url": "",
+        "button_text": "",
+        "tax_status": "taxable",
+        "tax_class": "",
+        "manage_stock": false,
+        "stock_quantity": null,
+        "backorders": "no",
+        "backorders_allowed": false,
+        "backordered": false,
+        "low_stock_amount": null,
+        "sold_individually": false,
+        "weight": "",
+        "dimensions": {
+            "length": "",
+            "width": "",
+            "height": ""
+        },
+        "shipping_required": true,
+        "shipping_taxable": true,
+        "shipping_class": "gls-szallitas",
+        "shipping_class_id": 31,
+        "reviews_allowed": true,
+        "average_rating": "0.00",
+        "rating_count": 0,
+        "upsell_ids": [],
+        "cross_sell_ids": [],
+        "parent_id": 0,
+        "purchase_note": "",
+        "categories": [
+            {
+                "id": 15,
+                "name": "Uncategorized",
+                "slug": "uncategorized"
+            }
+        ],
+        "tags": [
+            {
+                "id": 41,
+                "name": "tabla",
+                "slug": "tabla"
+            }
+        ],
+        "images": [],
+        "attributes": [],
+        "default_attributes": [],
+        "variations": [],
+        "grouped_products": [],
+        "menu_order": 0,
+        "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&#70;&#116;</span>13 000,00</bdi></span>",
+        "related_ids": [
+            210,
+            226,
+            211,
+            212,
+            213
+        ],
+        "meta_data": [
+            {
+                "id": 2024,
+                "key": "_rendelesi_modok",
+                "value": ""
+            }
+        ],
+        "stock_status": "instock",
+        "has_options": false,
+        "acf": {
+            "rendelesi_modok": null
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://finalexamprojectafter-wp.lajoskis.dk/wp-json/wc/v3/products/249"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://finalexamprojectafter-wp.lajoskis.dk/wp-json/wc/v3/products"
+                }
+            ]
+        }
+    },
+    {
+        "id": 243,
+        "name": "Elegant - Ültető tábla",
+        "slug": "elegant-ulteto-tabla",
+        "permalink": "https://finalexamprojectafter-wp.lajoskis.dk/product/elegant-ulteto-tabla",
+        "date_created": "2023-06-03T10:28:40",
+        "date_created_gmt": "2023-06-03T10:28:40",
+        "date_modified": "2023-06-03T22:07:48",
+        "date_modified_gmt": "2023-06-03T22:07:48",
+        "type": "simple",
+        "status": "publish",
+        "featured": false,
+        "catalog_visibility": "visible",
+        "description": "<p>Nyomtatott, 60x40-es habkartonra tábla, egyedi ültetési renddel</p>\n",
+        "short_description": "",
+        "sku": "",
+        "price": "10000",
+        "regular_price": "10000",
+        "sale_price": "",
+        "date_on_sale_from": null,
+        "date_on_sale_from_gmt": null,
+        "date_on_sale_to": null,
+        "date_on_sale_to_gmt": null,
+        "on_sale": false,
+        "purchasable": true,
+        "total_sales": 0,
+        "virtual": false,
+        "downloadable": false,
+        "downloads": [],
+        "download_limit": 0,
+        "download_expiry": 0,
+        "external_url": "",
+        "button_text": "",
+        "tax_status": "taxable",
+        "tax_class": "",
+        "manage_stock": false,
+        "stock_quantity": null,
+        "backorders": "no",
+        "backorders_allowed": false,
+        "backordered": false,
+        "low_stock_amount": null,
+        "sold_individually": false,
+        "weight": "",
+        "dimensions": {
+            "length": "",
+            "width": "",
+            "height": ""
+        },
+        "shipping_required": true,
+        "shipping_taxable": true,
+        "shipping_class": "gls-szallitas",
+        "shipping_class_id": 31,
+        "reviews_allowed": true,
+        "average_rating": "0.00",
+        "rating_count": 0,
+        "upsell_ids": [],
+        "cross_sell_ids": [],
+        "parent_id": 0,
+        "purchase_note": "",
+        "categories": [
+            {
+                "id": 15,
+                "name": "Uncategorized",
+                "slug": "uncategorized"
+            }
+        ],
+        "tags": [
+            {
+                "id": 41,
+                "name": "tabla",
+                "slug": "tabla"
+            }
+        ],
+        "images": [],
+        "attributes": [],
+        "default_attributes": [],
+        "variations": [],
+        "grouped_products": [],
+        "menu_order": 0,
+        "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&#70;&#116;</span>10 000,00</bdi></span>",
+        "related_ids": [
+            226,
+            219,
+            213,
+            227,
+            222
+        ],
+        "meta_data": [
+            {
+                "id": 2000,
+                "key": "_rendelesi_modok",
+                "value": ""
+            }
+        ],
+        "stock_status": "instock",
+        "has_options": false,
+        "acf": {
+            "rendelesi_modok": null
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://finalexamprojectafter-wp.lajoskis.dk/wp-json/wc/v3/products/243"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://finalexamprojectafter-wp.lajoskis.dk/wp-json/wc/v3/products"
+                }
+            ]
+        }
+    },
+    {
+        "id": 248,
+        "name": "Vendégkönyv tábla",
+        "slug": "vendegkonyv-tabla",
+        "permalink": "https://finalexamprojectafter-wp.lajoskis.dk/product/vendegkonyv-tabla",
+        "date_created": "2023-06-03T10:28:40",
+        "date_created_gmt": "2023-06-03T10:28:40",
+        "date_modified": "2023-06-03T22:07:48",
+        "date_modified_gmt": "2023-06-03T22:07:48",
+        "type": "simple",
+        "status": "publish",
+        "featured": false,
+        "catalog_visibility": "visible",
+        "description": "<p>60x40cm-es Dió fatábla, egyedi, fehér szöveggel nyomtatva. </p>\n",
+        "short_description": "",
+        "sku": "",
+        "price": "10000",
+        "regular_price": "10000",
+        "sale_price": "",
+        "date_on_sale_from": null,
+        "date_on_sale_from_gmt": null,
+        "date_on_sale_to": null,
+        "date_on_sale_to_gmt": null,
+        "on_sale": false,
+        "purchasable": true,
+        "total_sales": 0,
+        "virtual": false,
+        "downloadable": false,
+        "downloads": [],
+        "download_limit": 0,
+        "download_expiry": 0,
+        "external_url": "",
+        "button_text": "",
+        "tax_status": "taxable",
+        "tax_class": "",
+        "manage_stock": false,
+        "stock_quantity": null,
+        "backorders": "no",
+        "backorders_allowed": false,
+        "backordered": false,
+        "low_stock_amount": null,
+        "sold_individually": false,
+        "weight": "",
+        "dimensions": {
+            "length": "",
+            "width": "",
+            "height": ""
+        },
+        "shipping_required": true,
+        "shipping_taxable": true,
+        "shipping_class": "gls-szallitas",
+        "shipping_class_id": 31,
+        "reviews_allowed": true,
+        "average_rating": "0.00",
+        "rating_count": 0,
+        "upsell_ids": [],
+        "cross_sell_ids": [],
+        "parent_id": 0,
+        "purchase_note": "",
+        "categories": [
+            {
+                "id": 15,
+                "name": "Uncategorized",
+                "slug": "uncategorized"
+            }
+        ],
+        "tags": [
+            {
+                "id": 41,
+                "name": "tabla",
+                "slug": "tabla"
+            }
+        ],
+        "images": [],
+        "attributes": [],
+        "default_attributes": [],
+        "variations": [],
+        "grouped_products": [],
+        "menu_order": 0,
+        "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&#70;&#116;</span>10 000,00</bdi></span>",
+        "related_ids": [
+            207,
+            227,
+            210,
+            212,
+            211
+        ],
+        "meta_data": [
+            {
+                "id": 2020,
+                "key": "_rendelesi_modok",
+                "value": ""
+            }
+        ],
+        "stock_status": "instock",
+        "has_options": false,
+        "acf": {
+            "rendelesi_modok": null
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://finalexamprojectafter-wp.lajoskis.dk/wp-json/wc/v3/products/248"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://finalexamprojectafter-wp.lajoskis.dk/wp-json/wc/v3/products"
+                }
+            ]
+        }
+    },
+    {
+        "id": 245,
+        "name": "Rustic - helyjelölő, iránymutató tábla",
+        "slug": "rustic-helyjelolo-iranymutato-tabla",
+        "permalink": "https://finalexamprojectafter-wp.lajoskis.dk/product/rustic-helyjelolo-iranymutato-tabla",
+        "date_created": "2023-06-03T10:28:40",
+        "date_created_gmt": "2023-06-03T10:28:40",
+        "date_modified": "2023-06-03T22:07:48",
+        "date_modified_gmt": "2023-06-03T22:07:48",
+        "type": "simple",
+        "status": "publish",
+        "featured": false,
+        "catalog_visibility": "visible",
+        "description": "<p>A4 körüli méretű, egyedi szöveggel, fehérrel nyomtatott, 3mm vastag, mahagóni fa tábla. Mérete függ formától. </p>\n",
+        "short_description": "",
+        "sku": "",
+        "price": "5000",
+        "regular_price": "5000",
+        "sale_price": "",
+        "date_on_sale_from": null,
+        "date_on_sale_from_gmt": null,
+        "date_on_sale_to": null,
+        "date_on_sale_to_gmt": null,
+        "on_sale": false,
+        "purchasable": true,
+        "total_sales": 0,
+        "virtual": false,
+        "downloadable": false,
+        "downloads": [],
+        "download_limit": 0,
+        "download_expiry": 0,
+        "external_url": "",
+        "button_text": "",
+        "tax_status": "taxable",
+        "tax_class": "",
+        "manage_stock": false,
+        "stock_quantity": null,
+        "backorders": "no",
+        "backorders_allowed": false,
+        "backordered": false,
+        "low_stock_amount": null,
+        "sold_individually": false,
+        "weight": "",
+        "dimensions": {
+            "length": "",
+            "width": "",
+            "height": ""
+        },
+        "shipping_required": true,
+        "shipping_taxable": true,
+        "shipping_class": "gls-szallitas",
+        "shipping_class_id": 31,
+        "reviews_allowed": true,
+        "average_rating": "0.00",
+        "rating_count": 0,
+        "upsell_ids": [],
+        "cross_sell_ids": [],
+        "parent_id": 0,
+        "purchase_note": "",
+        "categories": [
+            {
+                "id": 15,
+                "name": "Uncategorized",
+                "slug": "uncategorized"
+            }
+        ],
+        "tags": [
+            {
+                "id": 41,
+                "name": "tabla",
+                "slug": "tabla"
+            }
+        ],
+        "images": [],
+        "attributes": [],
+        "default_attributes": [],
+        "variations": [],
+        "grouped_products": [],
+        "menu_order": 0,
+        "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&#70;&#116;</span>5 000,00</bdi></span>",
+        "related_ids": [
+            231,
+            220,
+            216,
+            219,
+            222
+        ],
+        "meta_data": [
+            {
+                "id": 2008,
+                "key": "_rendelesi_modok",
+                "value": ""
+            }
+        ],
+        "stock_status": "instock",
+        "has_options": false,
+        "acf": {
+            "rendelesi_modok": null
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://finalexamprojectafter-wp.lajoskis.dk/wp-json/wc/v3/products/245"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://finalexamprojectafter-wp.lajoskis.dk/wp-json/wc/v3/products"
+                }
+            ]
+        }
+    },
+    {
+        "id": 247,
+        "name": "Rustic - Üdvözlő tábla",
+        "slug": "rustic-udvozlo-tabla",
+        "permalink": "https://finalexamprojectafter-wp.lajoskis.dk/product/rustic-udvozlo-tabla",
+        "date_created": "2023-06-03T10:28:40",
+        "date_created_gmt": "2023-06-03T10:28:40",
+        "date_modified": "2023-06-03T22:07:47",
+        "date_modified_gmt": "2023-06-03T22:07:47",
+        "type": "simple",
+        "status": "publish",
+        "featured": false,
+        "catalog_visibility": "visible",
+        "description": "<p>Egyedi szöveggel és grafikával ellátott, 60x40-es mahagóni fa tábla, szárazvirág dekorációval. (A képen élő virág dekoráció látható) Minden esetben, egyedi, szárazvirággal készítjük. </p>\n",
+        "short_description": "",
+        "sku": "",
+        "price": "18000",
+        "regular_price": "18000",
+        "sale_price": "",
+        "date_on_sale_from": null,
+        "date_on_sale_from_gmt": null,
+        "date_on_sale_to": null,
+        "date_on_sale_to_gmt": null,
+        "on_sale": false,
+        "purchasable": true,
+        "total_sales": 0,
+        "virtual": false,
+        "downloadable": false,
+        "downloads": [],
+        "download_limit": 0,
+        "download_expiry": 0,
+        "external_url": "",
+        "button_text": "",
+        "tax_status": "taxable",
+        "tax_class": "",
+        "manage_stock": false,
+        "stock_quantity": null,
+        "backorders": "no",
+        "backorders_allowed": false,
+        "backordered": false,
+        "low_stock_amount": null,
+        "sold_individually": false,
+        "weight": "",
+        "dimensions": {
+            "length": "",
+            "width": "",
+            "height": ""
+        },
+        "shipping_required": true,
+        "shipping_taxable": true,
+        "shipping_class": "gls-szallitas",
+        "shipping_class_id": 31,
+        "reviews_allowed": true,
+        "average_rating": "0.00",
+        "rating_count": 0,
+        "upsell_ids": [],
+        "cross_sell_ids": [],
+        "parent_id": 0,
+        "purchase_note": "",
+        "categories": [
+            {
+                "id": 15,
+                "name": "Uncategorized",
+                "slug": "uncategorized"
+            }
+        ],
+        "tags": [
+            {
+                "id": 41,
+                "name": "tabla",
+                "slug": "tabla"
+            }
+        ],
+        "images": [],
+        "attributes": [],
+        "default_attributes": [],
+        "variations": [],
+        "grouped_products": [],
+        "menu_order": 0,
+        "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&#70;&#116;</span>18 000,00</bdi></span>",
+        "related_ids": [
+            230,
+            229,
+            210,
+            211,
+            217
+        ],
+        "meta_data": [
+            {
+                "id": 2016,
+                "key": "_rendelesi_modok",
+                "value": ""
+            }
+        ],
+        "stock_status": "instock",
+        "has_options": false,
+        "acf": {
+            "rendelesi_modok": null
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://finalexamprojectafter-wp.lajoskis.dk/wp-json/wc/v3/products/247"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://finalexamprojectafter-wp.lajoskis.dk/wp-json/wc/v3/products"
+                }
+            ]
+        }
+    },
+    {
+        "id": 250,
+        "name": "Vintage - Ültető tábla",
+        "slug": "vintage-ulteto-tabla",
+        "permalink": "https://finalexamprojectafter-wp.lajoskis.dk/product/vintage-ulteto-tabla",
+        "date_created": "2023-06-03T10:28:40",
+        "date_created_gmt": "2023-06-03T10:28:40",
+        "date_modified": "2023-06-03T22:07:48",
+        "date_modified_gmt": "2023-06-03T22:07:48",
+        "type": "simple",
+        "status": "publish",
+        "featured": false,
+        "catalog_visibility": "visible",
+        "description": "<p>Egyedi szöveggel ellátott, 60x40-es Dió fa tábla, fehér és színes mintákkal nyomtatva, fehér, akvarell papír helymegjelölőkkel.</p>\n",
+        "short_description": "",
+        "sku": "",
+        "price": "16000",
+        "regular_price": "16000",
+        "sale_price": "",
+        "date_on_sale_from": null,
+        "date_on_sale_from_gmt": null,
+        "date_on_sale_to": null,
+        "date_on_sale_to_gmt": null,
+        "on_sale": false,
+        "purchasable": true,
+        "total_sales": 0,
+        "virtual": false,
+        "downloadable": false,
+        "downloads": [],
+        "download_limit": 0,
+        "download_expiry": 0,
+        "external_url": "",
+        "button_text": "",
+        "tax_status": "taxable",
+        "tax_class": "",
+        "manage_stock": false,
+        "stock_quantity": null,
+        "backorders": "no",
+        "backorders_allowed": false,
+        "backordered": false,
+        "low_stock_amount": null,
+        "sold_individually": false,
+        "weight": "",
+        "dimensions": {
+            "length": "",
+            "width": "",
+            "height": ""
+        },
+        "shipping_required": true,
+        "shipping_taxable": true,
+        "shipping_class": "gls-szallitas",
+        "shipping_class_id": 31,
+        "reviews_allowed": true,
+        "average_rating": "0.00",
+        "rating_count": 0,
+        "upsell_ids": [],
+        "cross_sell_ids": [],
+        "parent_id": 0,
+        "purchase_note": "",
+        "categories": [
+            {
+                "id": 15,
+                "name": "Uncategorized",
+                "slug": "uncategorized"
+            }
+        ],
+        "tags": [
+            {
+                "id": 41,
+                "name": "tabla",
+                "slug": "tabla"
+            }
+        ],
+        "images": [],
+        "attributes": [],
+        "default_attributes": [],
+        "variations": [],
+        "grouped_products": [],
+        "menu_order": 0,
+        "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&#70;&#116;</span>16 000,00</bdi></span>",
+        "related_ids": [
+            215,
+            227,
+            213,
+            230,
+            216
+        ],
+        "meta_data": [
+            {
+                "id": 2028,
+                "key": "_rendelesi_modok",
+                "value": ""
+            }
+        ],
+        "stock_status": "instock",
+        "has_options": false,
+        "acf": {
+            "rendelesi_modok": null
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://finalexamprojectafter-wp.lajoskis.dk/wp-json/wc/v3/products/250"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://finalexamprojectafter-wp.lajoskis.dk/wp-json/wc/v3/products"
+                }
+            ]
+        }
+    },
+    {
+        "id": 242,
+        "name": "Classic - Ültető tábla",
+        "slug": "classic-ulteto-tabla",
+        "permalink": "https://finalexamprojectafter-wp.lajoskis.dk/product/classic-ulteto-tabla",
+        "date_created": "2023-06-03T10:28:40",
+        "date_created_gmt": "2023-06-03T10:28:40",
+        "date_modified": "2023-06-03T22:07:48",
+        "date_modified_gmt": "2023-06-03T22:07:48",
+        "type": "simple",
+        "status": "publish",
+        "featured": false,
+        "catalog_visibility": "visible",
+        "description": "<p>Keresd meg az asztalod szöveggel ellátott, 60x40cm-es 3mm vastag, fehérrel nyomtatott, víztiszta plexi tábla, fehér kemény papírra nyomtatott ültetésrenddel. </p>\n",
+        "short_description": "",
+        "sku": "",
+        "price": "16000",
+        "regular_price": "16000",
+        "sale_price": "",
+        "date_on_sale_from": null,
+        "date_on_sale_from_gmt": null,
+        "date_on_sale_to": null,
+        "date_on_sale_to_gmt": null,
+        "on_sale": false,
+        "purchasable": true,
+        "total_sales": 0,
+        "virtual": false,
+        "downloadable": false,
+        "downloads": [],
+        "download_limit": 0,
+        "download_expiry": 0,
+        "external_url": "",
+        "button_text": "",
+        "tax_status": "taxable",
+        "tax_class": "",
+        "manage_stock": false,
+        "stock_quantity": null,
+        "backorders": "no",
+        "backorders_allowed": false,
+        "backordered": false,
+        "low_stock_amount": null,
+        "sold_individually": false,
+        "weight": "",
+        "dimensions": {
+            "length": "",
+            "width": "",
+            "height": ""
+        },
+        "shipping_required": true,
+        "shipping_taxable": true,
+        "shipping_class": "gls-szallitas",
+        "shipping_class_id": 31,
+        "reviews_allowed": true,
+        "average_rating": "0.00",
+        "rating_count": 0,
+        "upsell_ids": [],
+        "cross_sell_ids": [],
+        "parent_id": 0,
+        "purchase_note": "",
+        "categories": [
+            {
+                "id": 15,
+                "name": "Uncategorized",
+                "slug": "uncategorized"
+            }
+        ],
+        "tags": [
+            {
+                "id": 41,
+                "name": "tabla",
+                "slug": "tabla"
+            }
+        ],
+        "images": [],
+        "attributes": [],
+        "default_attributes": [],
+        "variations": [],
+        "grouped_products": [],
+        "menu_order": 0,
+        "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&#70;&#116;</span>16 000,00</bdi></span>",
+        "related_ids": [
+            210,
+            209,
+            218,
+            222,
+            212
+        ],
+        "meta_data": [
+            {
+                "id": 1996,
+                "key": "_rendelesi_modok",
+                "value": ""
+            }
+        ],
+        "stock_status": "instock",
+        "has_options": false,
+        "acf": {
+            "rendelesi_modok": null
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://finalexamprojectafter-wp.lajoskis.dk/wp-json/wc/v3/products/242"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://finalexamprojectafter-wp.lajoskis.dk/wp-json/wc/v3/products"
+                }
+            ]
+        }
+    },
+    {
+        "id": 241,
+        "name": "Classic - Üdvözlő tábla",
+        "slug": "classic-udvozlo-tabla",
+        "permalink": "https://finalexamprojectafter-wp.lajoskis.dk/product/classic-udvozlo-tabla",
+        "date_created": "2023-06-03T10:28:40",
+        "date_created_gmt": "2023-06-03T10:28:40",
+        "date_modified": "2023-06-03T22:07:48",
+        "date_modified_gmt": "2023-06-03T22:07:48",
+        "type": "simple",
+        "status": "publish",
+        "featured": false,
+        "catalog_visibility": "visible",
+        "description": "<p>Egyedi szöveggel ellátott, 60x40cm-es 3mm vastag, fehérrel nyomtatott, víztiszta plexi tábla</p>\n",
+        "short_description": "",
+        "sku": "",
+        "price": "14000",
+        "regular_price": "14000",
+        "sale_price": "",
+        "date_on_sale_from": null,
+        "date_on_sale_from_gmt": null,
+        "date_on_sale_to": null,
+        "date_on_sale_to_gmt": null,
+        "on_sale": false,
+        "purchasable": true,
+        "total_sales": 0,
+        "virtual": false,
+        "downloadable": false,
+        "downloads": [],
+        "download_limit": 0,
+        "download_expiry": 0,
+        "external_url": "",
+        "button_text": "",
+        "tax_status": "taxable",
+        "tax_class": "",
+        "manage_stock": false,
+        "stock_quantity": null,
+        "backorders": "no",
+        "backorders_allowed": false,
+        "backordered": false,
+        "low_stock_amount": null,
+        "sold_individually": false,
+        "weight": "",
+        "dimensions": {
+            "length": "",
+            "width": "",
+            "height": ""
+        },
+        "shipping_required": true,
+        "shipping_taxable": true,
+        "shipping_class": "gls-szallitas",
+        "shipping_class_id": 31,
+        "reviews_allowed": true,
+        "average_rating": "0.00",
+        "rating_count": 0,
+        "upsell_ids": [],
+        "cross_sell_ids": [],
+        "parent_id": 0,
+        "purchase_note": "",
+        "categories": [
+            {
+                "id": 15,
+                "name": "Uncategorized",
+                "slug": "uncategorized"
+            }
+        ],
+        "tags": [
+            {
+                "id": 41,
+                "name": "tabla",
+                "slug": "tabla"
+            }
+        ],
+        "images": [],
+        "attributes": [],
+        "default_attributes": [],
+        "variations": [],
+        "grouped_products": [],
+        "menu_order": 0,
+        "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&#70;&#116;</span>14 000,00</bdi></span>",
+        "related_ids": [
+            216,
+            222,
+            217,
+            227,
+            220
+        ],
+        "meta_data": [
+            {
+                "id": 1992,
+                "key": "_rendelesi_modok",
+                "value": ""
+            }
+        ],
+        "stock_status": "instock",
+        "has_options": false,
+        "acf": {
+            "rendelesi_modok": null
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://finalexamprojectafter-wp.lajoskis.dk/wp-json/wc/v3/products/241"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://finalexamprojectafter-wp.lajoskis.dk/wp-json/wc/v3/products"
+                }
+            ]
+        }
+    },
+    {
+        "id": 251,
+        "name": "White - Plexi üdvözlőtábla",
+        "slug": "white-plexi-udvozlotabla",
+        "permalink": "https://finalexamprojectafter-wp.lajoskis.dk/?post_type=product&p=251",
+        "date_created": "2023-06-03T10:28:40",
+        "date_created_gmt": "2023-06-03T10:28:40",
+        "date_modified": "2023-06-03T22:07:47",
+        "date_modified_gmt": "2023-06-03T22:07:47",
+        "type": "simple",
+        "status": "draft",
+        "featured": false,
+        "catalog_visibility": "visible",
+        "description": "<p>Egyedi szöveggel ellátott, 60x40cm-es 3mm vastag, hátulról kézzel festett, elölről nyomtatott, víztiszta plexi tábla</p>\n",
+        "short_description": "",
+        "sku": "",
+        "price": "17000",
+        "regular_price": "17000",
+        "sale_price": "",
+        "date_on_sale_from": null,
+        "date_on_sale_from_gmt": null,
+        "date_on_sale_to": null,
+        "date_on_sale_to_gmt": null,
+        "on_sale": false,
+        "purchasable": true,
+        "total_sales": 0,
+        "virtual": false,
+        "downloadable": false,
+        "downloads": [],
+        "download_limit": 0,
+        "download_expiry": 0,
+        "external_url": "",
+        "button_text": "",
+        "tax_status": "taxable",
+        "tax_class": "",
+        "manage_stock": false,
+        "stock_quantity": null,
+        "backorders": "no",
+        "backorders_allowed": false,
+        "backordered": false,
+        "low_stock_amount": null,
+        "sold_individually": false,
+        "weight": "",
+        "dimensions": {
+            "length": "",
+            "width": "",
+            "height": ""
+        },
+        "shipping_required": true,
+        "shipping_taxable": true,
+        "shipping_class": "gls-szallitas",
+        "shipping_class_id": 31,
+        "reviews_allowed": true,
+        "average_rating": "0.00",
+        "rating_count": 0,
+        "upsell_ids": [],
+        "cross_sell_ids": [],
+        "parent_id": 0,
+        "purchase_note": "",
+        "categories": [
+            {
+                "id": 15,
+                "name": "Uncategorized",
+                "slug": "uncategorized"
+            }
+        ],
+        "tags": [
+            {
+                "id": 41,
+                "name": "tabla",
+                "slug": "tabla"
+            }
+        ],
+        "images": [],
+        "attributes": [],
+        "default_attributes": [],
+        "variations": [],
+        "grouped_products": [],
+        "menu_order": 0,
+        "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&#70;&#116;</span>17 000,00</bdi></span>",
+        "related_ids": [
+            223,
+            212,
+            207,
+            226,
+            220
+        ],
+        "meta_data": [
+            {
+                "id": 2032,
+                "key": "_rendelesi_modok",
+                "value": "field_6468df618a8fa"
+            },
+            {
+                "id": 2059,
+                "key": "rendelesi_modok",
+                "value": ""
+            }
+        ],
+        "stock_status": "instock",
+        "has_options": false,
+        "acf": {
+            "rendelesi_modok": []
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://finalexamprojectafter-wp.lajoskis.dk/wp-json/wc/v3/products/251"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://finalexamprojectafter-wp.lajoskis.dk/wp-json/wc/v3/products"
+                }
+            ]
+        }
+    },
+    {
+        "id": 244,
+        "name": "Emerald - Plexi üdvözlő tábla",
+        "slug": "emerald-plexi-udvozlo-tabla",
+        "permalink": "https://finalexamprojectafter-wp.lajoskis.dk/product/emerald-plexi-udvozlo-tabla",
+        "date_created": "2023-06-03T10:28:40",
+        "date_created_gmt": "2023-06-03T10:28:40",
+        "date_modified": "2023-06-03T22:07:48",
+        "date_modified_gmt": "2023-06-03T22:07:48",
+        "type": "simple",
+        "status": "publish",
+        "featured": false,
+        "catalog_visibility": "visible",
+        "description": "<p>Egyedi szöveggel ellátott, 60x40cm-es 3mm vastag, hátulról kézzel festett, elölről nyomtatott, víztiszta plexi tábla</p>\n",
+        "short_description": "",
+        "sku": "",
+        "price": "17000",
+        "regular_price": "17000",
+        "sale_price": "",
+        "date_on_sale_from": null,
+        "date_on_sale_from_gmt": null,
+        "date_on_sale_to": null,
+        "date_on_sale_to_gmt": null,
+        "on_sale": false,
+        "purchasable": true,
+        "total_sales": 0,
+        "virtual": false,
+        "downloadable": false,
+        "downloads": [],
+        "download_limit": 0,
+        "download_expiry": 0,
+        "external_url": "",
+        "button_text": "",
+        "tax_status": "taxable",
+        "tax_class": "",
+        "manage_stock": false,
+        "stock_quantity": null,
+        "backorders": "no",
+        "backorders_allowed": false,
+        "backordered": false,
+        "low_stock_amount": null,
+        "sold_individually": false,
+        "weight": "",
+        "dimensions": {
+            "length": "",
+            "width": "",
+            "height": ""
+        },
+        "shipping_required": true,
+        "shipping_taxable": true,
+        "shipping_class": "gls-szallitas",
+        "shipping_class_id": 31,
+        "reviews_allowed": true,
+        "average_rating": "0.00",
+        "rating_count": 0,
+        "upsell_ids": [],
+        "cross_sell_ids": [],
+        "parent_id": 0,
+        "purchase_note": "",
+        "categories": [
+            {
+                "id": 15,
+                "name": "Uncategorized",
+                "slug": "uncategorized"
+            }
+        ],
+        "tags": [
+            {
+                "id": 41,
+                "name": "tabla",
+                "slug": "tabla"
+            }
+        ],
+        "images": [],
+        "attributes": [],
+        "default_attributes": [],
+        "variations": [],
+        "grouped_products": [],
+        "menu_order": 0,
+        "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\">&#70;&#116;</span>17 000,00</bdi></span>",
+        "related_ids": [
+            207,
+            224,
+            228,
+            211,
+            225
+        ],
+        "meta_data": [
+            {
+                "id": 2004,
+                "key": "_rendelesi_modok",
+                "value": ""
+            }
+        ],
+        "stock_status": "instock",
+        "has_options": false,
+        "acf": {
+            "rendelesi_modok": null
+        },
+        "_links": {
+            "self": [
+                {
+                    "href": "https://finalexamprojectafter-wp.lajoskis.dk/wp-json/wc/v3/products/244"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https://finalexamprojectafter-wp.lajoskis.dk/wp-json/wc/v3/products"
+                }
+            ]
+        }
+    }
+]

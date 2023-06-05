@@ -40,19 +40,19 @@ export default async function Home() {
   ]
 
   return (
-    <main className={styles.main}>
-      <HeroGallery images={imagesToSet} interval={5000} />
-      <MainPageCards />
-      <HowWeWork />
-      <InfoRibbon infoRibbonBoxes={infoRibbonBoxes}/>
-      <SectionHeader headertext='Munkáink'/>
-      <div className={styles.ourWorksImageContainer}>
-        <Image src='/munkaink.png' alt='munkaink' width={900} height={900}/>
-      </div>
-      {/* @ts-expect-error Server Component */}
-      <Reviews />
-      {/* @ts-expect-error Server Component */}
-      <AboutUs />
-    </main>
+      <main className={styles.main}>
+        <HeroGallery images={imagesToSet} interval={5000} />
+        <MainPageCards />
+        <HowWeWork />
+        <InfoRibbon infoRibbonBoxes={infoRibbonBoxes}/>
+        <SectionHeader headertext='Munkáink'/>
+        <div className={styles.ourWorksImageContainer}>
+          <Image src='/munkaink.png' alt='munkaink' width={900} height={900}/>
+        </div>
+        {/* @ts-expect-error Server Component */}
+        <Reviews />
+        {/* @ts-expect-error Server Component */}
+        <AboutUs />
+      </main>
   )
 }

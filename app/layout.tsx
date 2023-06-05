@@ -1,8 +1,9 @@
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
-import './globals.scss'
 import { Inter } from 'next/font/google'
 import { Roboto } from 'next/font/google';
+import { ShoppingCartProvider } from '@/context/ShoppingCartContext';
+import './globals.scss'
 
 export interface RootLayoutProps {
   children?: React.ReactNode
@@ -22,6 +23,7 @@ export const metadata = {
 
 export default function RootLayout({ children } : RootLayoutProps) {
   return (
+    <ShoppingCartProvider>
     <html lang="en">
       <body className={roboto.className}>
         {/* @ts-expect-error Server Component */}
@@ -30,5 +32,6 @@ export default function RootLayout({ children } : RootLayoutProps) {
         <Footer/>
       </body>
     </html>
+    </ShoppingCartProvider>
   )
 }

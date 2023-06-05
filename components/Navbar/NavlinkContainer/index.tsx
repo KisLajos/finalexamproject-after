@@ -1,8 +1,12 @@
+'use client'
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
+import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Category } from '..'
 import Navlink from '../Navlink'
+import { useShoppingCart } from '@/context/ShoppingCartContext'
 import navbarstyles from '../styles.module.scss'
 import styles from './styles.module.scss'
 
@@ -11,8 +15,11 @@ export interface NavlinkContainerProps {
 }
 
 export default function NavlinkContainer({categories} : NavlinkContainerProps) {
+  const {openCart, cartQuantity} = useShoppingCart();
+
   //console.log()
   return (
+    <>
     <ul className={navbarstyles.nav_links}>
         <li className={styles.navbarLogo}>
           <Link href={"/"}>
@@ -27,6 +34,16 @@ export default function NavlinkContainer({categories} : NavlinkContainerProps) {
             )
           )
         }
+        
       </ul>
+      {
+        cartQuantity > 0 && <button className={styles.shoppingCart} onClick={openCart}>
+        <FontAwesomeIcon icon={faShoppingCart}/>
+        <div className={styles.cartQuantity}>
+          {cartQuantity}
+        </div>
+      </button>
+      }
+    </>
   )
 }
