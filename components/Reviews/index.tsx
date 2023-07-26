@@ -9,7 +9,7 @@ export default async function Reviews() {
 
   return (
     <section>
-      <SectionHeader headertext="Visszajelzések"/>
+      <SectionHeader headertext="Visszajelzések" leafcolour='garnet'/>
       <ReviewSlider reviews={reviews} />
     </section>
   )

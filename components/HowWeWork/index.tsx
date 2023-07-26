@@ -7,7 +7,7 @@ import Image from 'next/image'
 export default function HowWeWork() {
   return (
     <section className={styles.HowWeWorkContainer}>
-      <SectionHeader headertext="Így dolgozunk"/>
+      <SectionHeader headertext="Így dolgozunk" leafcolour='lavender'/>
       <div className={styles.HowWeWorkCardsContainer}>
         <Image className={styles.dandelions_vibe} src={"/dandelions_vibe.png"} alt="Vibe" width={229} height={334}/>
         <Image className={styles.dandelions_tervezes} src={"/dandelions_tervezes.png"} alt="Tervezés" width={336} height={228}/>

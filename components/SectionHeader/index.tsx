@@ -9,13 +9,14 @@ const BuenardFont = localFont({
   display: 'swap',
 });
 export interface SectionHeaderProps {
-    headertext: string
+    headertext: string,
+    leafcolour: string,
 }
 
-export default function SectionHeader({headertext}:SectionHeaderProps) {
+export default function SectionHeader({headertext, leafcolour}:SectionHeaderProps) {
   return (
     <div className={styles.header}>
-        <WalnutLeaf colour='garnet' width={40} height={40}/>
+        <WalnutLeaf colour={leafcolour} width={40} height={40}/>
         <h1 className={BuenardFont.className}>{headertext}</h1>
       </div>
   )

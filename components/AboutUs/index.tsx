@@ -5,12 +5,20 @@ import { getPageDataBySlug } from '@/utils/wordpressfunctions'
 import NonHomeHeader from '../NonhomeHeader'
 import styles from './styles.module.scss'
 
-export default async function AboutUs() {
+export interface AboutUsProps {
+  useAlign: boolean
+}
+
+export default async function AboutUs( {useAlign} : AboutUsProps ) {
 const page = await getPageDataBySlug("rolunk")
 
   return (
     <section className={styles.AboutUsSection}>
-      <div style={{alignSelf:"start"}}><NonHomeHeader content={page.title.rendered} /></div>
+      {useAlign ? 
+        <div style={{ alignSelf:"start"}}><NonHomeHeader content={page.title.rendered} /></div> : 
+        <div><NonHomeHeader content={page.title.rendered} /></div>
+      }
+      
       <div className={styles.aboutusContainer}>
           <Image src={page.acf.about_us_image.url} alt="Flóra & Balázs" width={page.acf.about_us_image.width} height={page.acf.about_us_image.height}/>
           <div className={styles.aboutusText}>

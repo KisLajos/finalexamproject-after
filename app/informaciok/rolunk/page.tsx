@@ -8,7 +8,7 @@ export default async function Rolunk() {
     return (
         <div>
             {/* @ts-expect-error Server Component */}
-            <AboutUs/>
+            <AboutUs useAlign={true}/>
         </div>
     );
 }

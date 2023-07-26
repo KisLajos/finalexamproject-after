@@ -45,14 +45,14 @@ export default async function Home() {
         <MainPageCards />
         <HowWeWork />
         <InfoRibbon infoRibbonBoxes={infoRibbonBoxes}/>
-        <SectionHeader headertext='Munkáink'/>
+        <SectionHeader headertext='Munkáink' leafcolour='garnet'/>
         <div className={styles.ourWorksImageContainer}>
           <Image src='/munkaink.png' alt='munkaink' width={900} height={900}/>
         </div>
         {/* @ts-expect-error Server Component */}
         <Reviews />
         {/* @ts-expect-error Server Component */}
-        <AboutUs />
+        <AboutUs useAlign={false}/>
       </main>
   )
 }
