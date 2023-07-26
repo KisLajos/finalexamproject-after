@@ -15,7 +15,7 @@ export interface SectionHeaderProps {
 export default function SectionHeader({headertext}:SectionHeaderProps) {
   return (
     <div className={styles.header}>
-        <WalnutLeaf colour='logocolours' width={40} height={40}/>
+        <WalnutLeaf colour='garnet' width={40} height={40}/>
         <h1 className={BuenardFont.className}>{headertext}</h1>
       </div>
   )

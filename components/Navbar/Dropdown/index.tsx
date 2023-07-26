@@ -5,7 +5,7 @@ import { Category, WPTermObject } from '..';
 import styles from './styles.module.scss';
 import navlinkstyles from '../Navlink/styles.module.scss'
 import navbarstyles from '../styles.module.scss';
-import WalnutLeaf from '@/components/WalnutLeaf';
+import WalnutLeaf_stemless from '@/components/WalnutLeaf_stemless';
 
 export interface Sublink {
     href: string;
@@ -25,7 +25,7 @@ export const DropdownMenu = ({categorychildren, parentname} : DropdownProps) => 
                 {categorychildren.map((categorychild) => (
                     <div key={categorychild.term_id} className={styles.dropdowncontentContainer}>
                         <li className={`${navlinkstyles.nav_link} ${navbarstyles.nav_link__child}`}>
-                            <WalnutLeaf colour="lavender" width={20} height={20}/>
+                            <WalnutLeaf_stemless colour="garnet" width={20} height={20}/>
                             <Link href={`/${parentname}/${categorychild.slug}`}>{categorychild.name}</Link>
                         </li>
                     </div>

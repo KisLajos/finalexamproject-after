@@ -2,6 +2,7 @@ import Link from 'next/link'
 import React from 'react'
 import styles from './styles.module.scss'
 import WalnutLeaf from '../WalnutLeaf'
+import WalnutLeaf_stemless from '../WalnutLeaf_stemless'
 import localFont from 'next/font/local';
  
 // Font files can be colocated inside of `app`
@@ -31,7 +32,7 @@ export default function PageCard({title, links, bodytext}:PageCardProps) {
           <div className={styles.linkscardBody}>
             {links.map((link, index) =>(
                 <div className={styles.linkscardlineContainer} key={"link-" + index}>
-                  <WalnutLeaf colour="logocolours" width={20} height={20}/>
+                  <WalnutLeaf_stemless colour="lavender" width={20} height={20}/>
                   {link}
                 </div>
             ))}

@@ -17,7 +17,7 @@ export interface NonHomeHeaderProps {
 export default function NonHomeHeader({content}: NonHomeHeaderProps) {
   return (
     <div className={styles.headerContainer}>
-        <WalnutLeaf colour="logocolours" width={40} height={40} />
+        <WalnutLeaf colour="garnet" width={40} height={40} />
         <h1 className={BuenardFont.className}>{parse(content)}</h1>
     </div>
   )

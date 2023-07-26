@@ -2,10 +2,11 @@
     margin-left: 2rem;
     margin-right: 2rem;
     width: 100%;
-    background-image: url("http://finalexamprojectafter-wp.lajoskis.dk/wp-content/uploads/2023/05/Rust-Background.jpg");
+    /* background-image: url("http://finalexamprojectafter-wp.lajoskis.dk/wp-content/uploads/2023/05/Rust-Background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center; */
+    background: linear-gradient(0deg, var(--garnet) 0%, var(--chestnut) 100%);
     color: var(--lavender-blush);
 
     h1 {
